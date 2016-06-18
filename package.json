@@ -60,7 +60,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "set \"NODE_ENV=development\" && .\\node_modules\\.bin\\webpack -w --config webpack.config.js --devtools --progress",
-    "dev_unix": "set \"NODE_ENV=development\" && ./node_modules/.bin/webpack -w --config webpack.config.js --devtools --progress"
+    "dev_unix": "set \"NODE_ENV=development\" && ./node_modules/.bin/webpack -w --config webpack.config.js --devtools --progress",
+    "serve":"webpack-dev-server --host 0.0.0.0 --port 4000"
   },
   "author": [
     "rraj <rraj@xavient.com>"

@@ -1,13 +1,12 @@
 # angular_starter
 
-Client side javascript application starter kit (boilerplate) with anguler.js, Babel 6, LESS, PostCSS, Webpack and Bootstrap
+Client side javascript application starter kit (boilerplate) with anguler.js(ECMA 5), LESS, PostCSS, Webpack and Bootstrap
 
 ## Quick Start
 
 1. fork and then Clone the repo
 1. Install the local requirements: `npm install`
 1. Install the global requirements: `npm install webpack-dev-server`
-1. Build `npm run dev`
 1. Run locally: `webpack-dev-server --host 0.0.0.0 --port 4000`
 
 # Overview
